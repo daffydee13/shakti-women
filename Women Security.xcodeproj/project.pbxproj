@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B1237571ED1C2D3004A797A /* userInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1237561ED1C2D3004A797A /* userInfo.swift */; };
+		2B1237591ED1DB72004A797A /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1237581ED1DB72004A797A /* MaterialView.swift */; };
+		2B12375B1ED1DB95004A797A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12375A1ED1DB95004A797A /* ButtonView.swift */; };
+		2B12375D1ED1DBC3004A797A /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12375C1ED1DBC3004A797A /* TextView.swift */; };
+		2B1237611ED2B53E004A797A /* ExtremeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1237601ED2B53E004A797A /* ExtremeVC.swift */; };
+		2B1B63EF1ED0A374007AA78F /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1B63EE1ED0A374007AA78F /* MapVC.swift */; };
+		2B339EAB1ED4384700EE2176 /* NearByLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B339EAA1ED4384700EE2176 /* NearByLocation.swift */; };
 		2B3849D31EB08CD400FA96F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3849D21EB08CD400FA96F8 /* AppDelegate.swift */; };
 		2B3849D51EB08CD400FA96F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3849D41EB08CD400FA96F8 /* ViewController.swift */; };
 		2B3849D81EB08CD400FA96F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3849D61EB08CD400FA96F8 /* Main.storyboard */; };
@@ -14,6 +21,17 @@
 		2B3849DD1EB08CD400FA96F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3849DB1EB08CD400FA96F8 /* LaunchScreen.storyboard */; };
 		2B3849E81EB08CD400FA96F8 /* Women_SecurityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3849E71EB08CD400FA96F8 /* Women_SecurityTests.swift */; };
 		2B3849F31EB08CD400FA96F8 /* Women_SecurityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3849F21EB08CD400FA96F8 /* Women_SecurityUITests.swift */; };
+		2B384A011EB08D2800FA96F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B384A001EB08D2800FA96F8 /* GoogleService-Info.plist */; };
+		2B44A8381ED16FEA00737801 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44A8371ED16FEA00737801 /* DataService.swift */; };
+		2B44A83B1ED172BC00737801 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B44A83A1ED172BC00737801 /* Constants.swift */; };
+		2B49E8991EE2E29900D6DB92 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B49E8981EE2E29900D6DB92 /* CloudKit.framework */; };
+		2B5917091EE9BAD400209D9B /* handshake2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5917081EE9BAD400209D9B /* handshake2.png */; };
+		2B86F8BF1EDD7A3600827748 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B86F8BE1EDD7A3600827748 /* Contacts.swift */; };
+		2B86F8C11EDD7F0200827748 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B86F8C01EDD7F0200827748 /* SettingVC.swift */; };
+		2BCE56501EDDE51400701BB0 /* scream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2BCE564F1EDDE51400701BB0 /* scream.mp3 */; };
+		3A6A96E455CD613DFD6AF9B7 /* Pods_Women_Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1A3157893B89079E77DB18 /* Pods_Women_Security.framework */; };
+		6865AD0202BB636E0E431A88 /* Pods_Women_SecurityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E791B824699789A6CAD319 /* Pods_Women_SecurityUITests.framework */; };
+		795C3BF8EC7E17445DCC18FC /* Pods_Women_SecurityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ABADC821CC0FED1FB0C94C /* Pods_Women_SecurityTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0363F9ECB45D1BE9D12D9731 /* Pods-Women Security.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women Security.release.xcconfig"; path = "Pods/Target Support Files/Pods-Women Security/Pods-Women Security.release.xcconfig"; sourceTree = "<group>"; };
+		14CBA3663C66BC3BA9F5BB0B /* Pods-Women SecurityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women SecurityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Women SecurityTests/Pods-Women SecurityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B1237561ED1C2D3004A797A /* userInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userInfo.swift; sourceTree = "<group>"; };
+		2B1237581ED1DB72004A797A /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		2B12375A1ED1DB95004A797A /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		2B12375C1ED1DBC3004A797A /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		2B1237601ED2B53E004A797A /* ExtremeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtremeVC.swift; sourceTree = "<group>"; };
+		2B1B63EE1ED0A374007AA78F /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		2B339EAA1ED4384700EE2176 /* NearByLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearByLocation.swift; sourceTree = "<group>"; };
 		2B3849CF1EB08CD400FA96F8 /* Women Security.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women Security.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3849D21EB08CD400FA96F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B3849D41EB08CD400FA96F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B3849D41EB08CD400FA96F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Women Security/ViewController.swift"; sourceTree = "<group>"; };
 		2B3849D71EB08CD400FA96F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B3849D91EB08CD400FA96F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B3849DC1EB08CD400FA96F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +74,22 @@
 		2B3849EE1EB08CD400FA96F8 /* Women SecurityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Women SecurityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3849F21EB08CD400FA96F8 /* Women_SecurityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Women_SecurityUITests.swift; sourceTree = "<group>"; };
 		2B3849F41EB08CD400FA96F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B384A001EB08D2800FA96F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B44A8371ED16FEA00737801 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		2B44A83A1ED172BC00737801 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2B49E8971EE2E15300D6DB92 /* Women Security.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Women Security.entitlements"; sourceTree = "<group>"; };
+		2B49E8981EE2E29900D6DB92 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		2B5917081EE9BAD400209D9B /* handshake2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handshake2.png; sourceTree = "<group>"; };
+		2B86F8BE1EDD7A3600827748 /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		2B86F8C01EDD7F0200827748 /* SettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		2BCE564F1EDDE51400701BB0 /* scream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scream.mp3; sourceTree = "<group>"; };
+		32ABADC821CC0FED1FB0C94C /* Pods_Women_SecurityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Women_SecurityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B5DBC44EA114AFAA2C4FF6 /* Pods-Women Security.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women Security.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Women Security/Pods-Women Security.debug.xcconfig"; sourceTree = "<group>"; };
+		AC1A3157893B89079E77DB18 /* Pods_Women_Security.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Women_Security.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77B703EC1E7F7E569C692F0 /* Pods-Women SecurityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women SecurityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Women SecurityTests/Pods-Women SecurityTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA1437017B874928B12B915E /* Pods-Women SecurityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women SecurityUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Women SecurityUITests/Pods-Women SecurityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB41F2F339335A693904F9BB /* Pods-Women SecurityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women SecurityUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Women SecurityUITests/Pods-Women SecurityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F4E791B824699789A6CAD319 /* Pods_Women_SecurityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Women_SecurityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A6A96E455CD613DFD6AF9B7 /* Pods_Women_Security.framework in Frameworks */,
+				2B49E8991EE2E29900D6DB92 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795C3BF8EC7E17445DCC18FC /* Pods_Women_SecurityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +114,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6865AD0202BB636E0E431A88 /* Pods_Women_SecurityUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		201B9BDBD86E701573497EC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59B5DBC44EA114AFAA2C4FF6 /* Pods-Women Security.debug.xcconfig */,
+				0363F9ECB45D1BE9D12D9731 /* Pods-Women Security.release.xcconfig */,
+				14CBA3663C66BC3BA9F5BB0B /* Pods-Women SecurityTests.debug.xcconfig */,
+				D77B703EC1E7F7E569C692F0 /* Pods-Women SecurityTests.release.xcconfig */,
+				DA1437017B874928B12B915E /* Pods-Women SecurityUITests.debug.xcconfig */,
+				DB41F2F339335A693904F9BB /* Pods-Women SecurityUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B1B63EB1ED047B0007AA78F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B1237561ED1C2D3004A797A /* userInfo.swift */,
+				2B339EAA1ED4384700EE2176 /* NearByLocation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2B1B63EC1ED047B8007AA78F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B1237581ED1DB72004A797A /* MaterialView.swift */,
+				2B12375A1ED1DB95004A797A /* ButtonView.swift */,
+				2B12375C1ED1DBC3004A797A /* TextView.swift */,
+				2B86F8BE1EDD7A3600827748 /* Contacts.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2B1B63ED1ED047BF007AA78F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B3849D41EB08CD400FA96F8 /* ViewController.swift */,
+				2B1B63EE1ED0A374007AA78F /* MapVC.swift */,
+				2B1237601ED2B53E004A797A /* ExtremeVC.swift */,
+				2B86F8C01EDD7F0200827748 /* SettingVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		2B3849C61EB08CD400FA96F8 = {
 			isa = PBXGroup;
 			children = (
+				2B44A8391ED1729000737801 /* Util */,
+				2B44A8361ED16FD800737801 /* Services */,
+				2B1B63ED1ED047BF007AA78F /* Controller */,
+				2B1B63EC1ED047B8007AA78F /* View */,
+				2B1B63EB1ED047B0007AA78F /* Model */,
 				2B3849D11EB08CD400FA96F8 /* Women Security */,
 				2B3849E61EB08CD400FA96F8 /* Women SecurityTests */,
 				2B3849F11EB08CD400FA96F8 /* Women SecurityUITests */,
 				2B3849D01EB08CD400FA96F8 /* Products */,
+				201B9BDBD86E701573497EC3 /* Pods */,
+				2D6A51482765369020B538B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +195,14 @@
 		2B3849D11EB08CD400FA96F8 /* Women Security */ = {
 			isa = PBXGroup;
 			children = (
+				2B49E8971EE2E15300D6DB92 /* Women Security.entitlements */,
 				2B3849D21EB08CD400FA96F8 /* AppDelegate.swift */,
-				2B3849D41EB08CD400FA96F8 /* ViewController.swift */,
 				2B3849D61EB08CD400FA96F8 /* Main.storyboard */,
+				2B5917081EE9BAD400209D9B /* handshake2.png */,
 				2B3849D91EB08CD400FA96F8 /* Assets.xcassets */,
 				2B3849DB1EB08CD400FA96F8 /* LaunchScreen.storyboard */,
 				2B3849DE1EB08CD400FA96F8 /* Info.plist */,
+				2B384A001EB08D2800FA96F8 /* GoogleService-Info.plist */,
 			);
 			path = "Women Security";
 			sourceTree = "<group>";
@@ -125,6 +225,34 @@
 			path = "Women SecurityUITests";
 			sourceTree = "<group>";
 		};
+		2B44A8361ED16FD800737801 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2B44A8371ED16FEA00737801 /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		2B44A8391ED1729000737801 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2B44A83A1ED172BC00737801 /* Constants.swift */,
+				2BCE564F1EDDE51400701BB0 /* scream.mp3 */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		2D6A51482765369020B538B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B49E8981EE2E29900D6DB92 /* CloudKit.framework */,
+				AC1A3157893B89079E77DB18 /* Pods_Women_Security.framework */,
+				32ABADC821CC0FED1FB0C94C /* Pods_Women_SecurityTests.framework */,
+				F4E791B824699789A6CAD319 /* Pods_Women_SecurityUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +260,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B3849F71EB08CD400FA96F8 /* Build configuration list for PBXNativeTarget "Women Security" */;
 			buildPhases = (
+				12CDFC321920FC7AB27D1E15 /* [CP] Check Pods Manifest.lock */,
 				2B3849CB1EB08CD400FA96F8 /* Sources */,
 				2B3849CC1EB08CD400FA96F8 /* Frameworks */,
 				2B3849CD1EB08CD400FA96F8 /* Resources */,
+				3BA6942FFD83A62ED3965D3A /* [CP] Embed Pods Frameworks */,
+				24309BF3609340BE6059888C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +280,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B3849FA1EB08CD400FA96F8 /* Build configuration list for PBXNativeTarget "Women SecurityTests" */;
 			buildPhases = (
+				84557F5256EAA307272BDB21 /* [CP] Check Pods Manifest.lock */,
 				2B3849DF1EB08CD400FA96F8 /* Sources */,
 				2B3849E01EB08CD400FA96F8 /* Frameworks */,
 				2B3849E11EB08CD400FA96F8 /* Resources */,
+				9EC7E3C24113DF66BF60CBF1 /* [CP] Embed Pods Frameworks */,
+				2F10B0E0492B1743A7853625 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +301,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B3849FD1EB08CD400FA96F8 /* Build configuration list for PBXNativeTarget "Women SecurityUITests" */;
 			buildPhases = (
+				39B34B05F8D08184760B2BEC /* [CP] Check Pods Manifest.lock */,
 				2B3849EA1EB08CD400FA96F8 /* Sources */,
 				2B3849EB1EB08CD400FA96F8 /* Frameworks */,
 				2B3849EC1EB08CD400FA96F8 /* Resources */,
+				F3084058E1839FBCFF8A2987 /* [CP] Embed Pods Frameworks */,
+				B16BF5C9640348504C19EBF1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +332,17 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = M7DD4WVB5L;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					2B3849E21EB08CD400FA96F8 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -235,8 +383,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5917091EE9BAD400209D9B /* handshake2.png in Resources */,
 				2B3849DD1EB08CD400FA96F8 /* LaunchScreen.storyboard in Resources */,
+				2BCE56501EDDE51400701BB0 /* scream.mp3 in Resources */,
 				2B3849DA1EB08CD400FA96F8 /* Assets.xcassets in Resources */,
+				2B384A011EB08D2800FA96F8 /* GoogleService-Info.plist in Resources */,
 				2B3849D81EB08CD400FA96F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +408,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12CDFC321920FC7AB27D1E15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		24309BF3609340BE6059888C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Women Security/Pods-Women Security-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F10B0E0492B1743A7853625 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Women SecurityTests/Pods-Women SecurityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39B34B05F8D08184760B2BEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BA6942FFD83A62ED3965D3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Women Security/Pods-Women Security-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84557F5256EAA307272BDB21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EC7E3C24113DF66BF60CBF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Women SecurityTests/Pods-Women SecurityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B16BF5C9640348504C19EBF1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Women SecurityUITests/Pods-Women SecurityUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3084058E1839FBCFF8A2987 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Women SecurityUITests/Pods-Women SecurityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B3849CB1EB08CD400FA96F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1237571ED1C2D3004A797A /* userInfo.swift in Sources */,
+				2B1237611ED2B53E004A797A /* ExtremeVC.swift in Sources */,
+				2B44A83B1ED172BC00737801 /* Constants.swift in Sources */,
+				2B339EAB1ED4384700EE2176 /* NearByLocation.swift in Sources */,
+				2B12375B1ED1DB95004A797A /* ButtonView.swift in Sources */,
 				2B3849D51EB08CD400FA96F8 /* ViewController.swift in Sources */,
+				2B1B63EF1ED0A374007AA78F /* MapVC.swift in Sources */,
 				2B3849D31EB08CD400FA96F8 /* AppDelegate.swift in Sources */,
+				2B86F8BF1EDD7A3600827748 /* Contacts.swift in Sources */,
+				2B12375D1ED1DBC3004A797A /* TextView.swift in Sources */,
+				2B1237591ED1DB72004A797A /* MaterialView.swift in Sources */,
+				2B44A8381ED16FEA00737801 /* DataService.swift in Sources */,
+				2B86F8C11EDD7F0200827748 /* SettingVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,10 +715,13 @@
 		};
 		2B3849F81EB08CD400FA96F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B5DBC44EA114AFAA2C4FF6 /* Pods-Women Security.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Women Security/Women Security.entitlements";
 				DEVELOPMENT_TEAM = M7DD4WVB5L;
 				INFOPLIST_FILE = "Women Security/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dk.Women-Security";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,10 +731,13 @@
 		};
 		2B3849F91EB08CD400FA96F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0363F9ECB45D1BE9D12D9731 /* Pods-Women Security.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Women Security/Women Security.entitlements";
 				DEVELOPMENT_TEAM = M7DD4WVB5L;
 				INFOPLIST_FILE = "Women Security/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dk.Women-Security";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +747,7 @@
 		};
 		2B3849FB1EB08CD400FA96F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CBA3663C66BC3BA9F5BB0B /* Pods-Women SecurityTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +763,7 @@
 		};
 		2B3849FC1EB08CD400FA96F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D77B703EC1E7F7E569C692F0 /* Pods-Women SecurityTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +779,7 @@
 		};
 		2B3849FE1EB08CD400FA96F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1437017B874928B12B915E /* Pods-Women SecurityUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = M7DD4WVB5L;
@@ -485,6 +794,7 @@
 		};
 		2B3849FF1EB08CD400FA96F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB41F2F339335A693904F9BB /* Pods-Women SecurityUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = M7DD4WVB5L;
@@ -516,6 +826,7 @@
 				2B3849F91EB08CD400FA96F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B3849FA1EB08CD400FA96F8 /* Build configuration list for PBXNativeTarget "Women SecurityTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +835,7 @@
 				2B3849FC1EB08CD400FA96F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B3849FD1EB08CD400FA96F8 /* Build configuration list for PBXNativeTarget "Women SecurityUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +844,7 @@
 				2B3849FF1EB08CD400FA96F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
